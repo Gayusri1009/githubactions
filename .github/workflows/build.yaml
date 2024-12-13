@@ -2,10 +2,10 @@ name: first workflow
 on: [push]
 
 jobs: 
-  run-comands
-    runs-on: ubuntu-latest
+  example:
+    runs-on: [ubuntu-latest]
     steps:
-     - name: echo string
+     - name : echo string
        run: "hello"
      - name: multi-cmd
        run: |
